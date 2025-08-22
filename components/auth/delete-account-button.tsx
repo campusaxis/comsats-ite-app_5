@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { supabase } from "@/lib/supabase"
 import { Loader2 } from "lucide-react"
 
+
 export function DeleteAccountButton() {
   const [loading, setLoading] = useState(false)
   const router = useRouter()
